@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  color: #ffff;
+}
+
+.title {
+  margin-top: 0;
+  padding-top: 15px;
+}
+
+.todo_wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.todo_list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.todo_item {
+  display: flex;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.App-footer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  margin-top: 10px;
+}
