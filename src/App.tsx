@@ -55,7 +55,7 @@ function App() {
       <header className="App-header">
         <h1 className="title">TODO</h1>
       </header>
-      <main>
+      <main className="main">
         <div className="todo_wrap">
           <div>
             <input

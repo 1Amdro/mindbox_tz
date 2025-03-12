@@ -10,6 +10,11 @@
   padding-top: 15px;
 }
 
+.main {
+  display: flex;
+  justify-content: center;
+}
+
 .todo_wrap {
   display: flex;
   flex-direction: column;
